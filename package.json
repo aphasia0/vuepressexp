@@ -1,0 +1,25 @@
+{
+  "name": "aphasia0.dev",
+  "version": "0.0.1",
+  "description": "peppe",
+  "main": "index.js",
+  "authors": {
+    "name": "ee",
+    "email": "ee"
+  },
+  "repository": "ee/aphasia0.dev",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "start": "npm run lite --baseDir src/.vuepress/dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server --baseDir src/.vuepress/dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
